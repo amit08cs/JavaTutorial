@@ -1,5 +1,6 @@
 package Collections.customhashmap;
 
+import java.util.HashMap;
 
 class HashMapCustom<K, V> {
     
@@ -166,13 +167,11 @@ class HashMapCustom<K, V> {
 }
 
 
-/**
-* Main class- to test HashMap functionality.
-*/
 public class HashMapCustomApp {
     
    public static void main(String[] args) {
           HashMapCustom<Integer, Integer> hashMapCustom = new HashMapCustom<Integer, Integer>();
+          HashMap abb  = new HashMap<>(); 
           hashMapCustom.put(21, 12);
           hashMapCustom.put(25, 121);
           hashMapCustom.put(30, 151);
